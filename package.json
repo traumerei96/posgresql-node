@@ -1,0 +1,28 @@
+{
+  "name": "postgresql-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/traumerei96/posgresql-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/traumerei96/posgresql-node/issues"
+  },
+  "homepage": "https://github.com/traumerei96/posgresql-node#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
